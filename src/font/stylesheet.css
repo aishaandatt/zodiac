@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-SmBdIt.eot');
+    src: local('Periodico Display SemiBold Italic'), local('PeriodicoDisplay-SmBdIt'),
+        url('PeriodicoDisplay-SmBdIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-SmBdIt.woff2') format('woff2'),
+        url('PeriodicoDisplay-SmBdIt.woff') format('woff'),
+        url('PeriodicoDisplay-SmBdIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-XtLg.eot');
+    src: local('Periodico Display ExtraLight'), local('PeriodicoDisplay-XtLg'),
+        url('PeriodicoDisplay-XtLg.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-XtLg.woff2') format('woff2'),
+        url('PeriodicoDisplay-XtLg.woff') format('woff'),
+        url('PeriodicoDisplay-XtLg.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-Lg.eot');
+    src: local('Periodico Display Light'), local('PeriodicoDisplay-Lg'),
+        url('PeriodicoDisplay-Lg.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-Lg.woff2') format('woff2'),
+        url('PeriodicoDisplay-Lg.woff') format('woff'),
+        url('PeriodicoDisplay-Lg.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-ThIt.eot');
+    src: local('Periodico Display Thin Italic'), local('PeriodicoDisplay-ThIt'),
+        url('PeriodicoDisplay-ThIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-ThIt.woff2') format('woff2'),
+        url('PeriodicoDisplay-ThIt.woff') format('woff'),
+        url('PeriodicoDisplay-ThIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-LgIt.eot');
+    src: local('Periodico Display Light Italic'), local('PeriodicoDisplay-LgIt'),
+        url('PeriodicoDisplay-LgIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-LgIt.woff2') format('woff2'),
+        url('PeriodicoDisplay-LgIt.woff') format('woff'),
+        url('PeriodicoDisplay-LgIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-Th.eot');
+    src: local('Periodico Display Thin'), local('PeriodicoDisplay-Th'),
+        url('PeriodicoDisplay-Th.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-Th.woff2') format('woff2'),
+        url('PeriodicoDisplay-Th.woff') format('woff'),
+        url('PeriodicoDisplay-Th.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-Bd.eot');
+    src: local('Periodico Display Bold'), local('PeriodicoDisplay-Bd'),
+        url('PeriodicoDisplay-Bd.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-Bd.woff2') format('woff2'),
+        url('PeriodicoDisplay-Bd.woff') format('woff'),
+        url('PeriodicoDisplay-Bd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-Md.eot');
+    src: local('Periodico Display Medium'), local('PeriodicoDisplay-Md'),
+        url('PeriodicoDisplay-Md.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-Md.woff2') format('woff2'),
+        url('PeriodicoDisplay-Md.woff') format('woff'),
+        url('PeriodicoDisplay-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-BkIt.eot');
+    src: local('Periodico Display Black Italic'), local('PeriodicoDisplay-BkIt'),
+        url('PeriodicoDisplay-BkIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-BkIt.woff2') format('woff2'),
+        url('PeriodicoDisplay-BkIt.woff') format('woff'),
+        url('PeriodicoDisplay-BkIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-BdIt.eot');
+    src: local('Periodico Display Bold Italic'), local('PeriodicoDisplay-BdIt'),
+        url('PeriodicoDisplay-BdIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-BdIt.woff2') format('woff2'),
+        url('PeriodicoDisplay-BdIt.woff') format('woff'),
+        url('PeriodicoDisplay-BdIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-MdIt.eot');
+    src: local('Periodico Display Medium Italic'), local('PeriodicoDisplay-MdIt'),
+        url('PeriodicoDisplay-MdIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-MdIt.woff2') format('woff2'),
+        url('PeriodicoDisplay-MdIt.woff') format('woff'),
+        url('PeriodicoDisplay-MdIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-SmBd.eot');
+    src: local('Periodico Display SemiBold'), local('PeriodicoDisplay-SmBd'),
+        url('PeriodicoDisplay-SmBd.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-SmBd.woff2') format('woff2'),
+        url('PeriodicoDisplay-SmBd.woff') format('woff'),
+        url('PeriodicoDisplay-SmBd.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-Bk.eot');
+    src: local('Periodico Display Black'), local('PeriodicoDisplay-Bk'),
+        url('PeriodicoDisplay-Bk.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-Bk.woff2') format('woff2'),
+        url('PeriodicoDisplay-Bk.woff') format('woff'),
+        url('PeriodicoDisplay-Bk.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display UltraBlack';
+    src: url('PeriodicoDisplay-UtBkIt.eot');
+    src: local('Periodico Display UltraBlack Italic'), local('PeriodicoDisplay-UtBkIt'),
+        url('PeriodicoDisplay-UtBkIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-UtBkIt.woff2') format('woff2'),
+        url('PeriodicoDisplay-UtBkIt.woff') format('woff'),
+        url('PeriodicoDisplay-UtBkIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-RgIt.eot');
+    src: local('Periodico Display Italic'), local('PeriodicoDisplay-RgIt'),
+        url('PeriodicoDisplay-RgIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-RgIt.woff2') format('woff2'),
+        url('PeriodicoDisplay-RgIt.woff') format('woff'),
+        url('PeriodicoDisplay-RgIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-XtLgIt.eot');
+    src: local('Periodico Display ExtraLight Italic'), local('PeriodicoDisplay-XtLgIt'),
+        url('PeriodicoDisplay-XtLgIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-XtLgIt.woff2') format('woff2'),
+        url('PeriodicoDisplay-XtLgIt.woff') format('woff'),
+        url('PeriodicoDisplay-XtLgIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-Rg.eot');
+    src: local('Periodico Display'), local('PeriodicoDisplay-Rg'),
+        url('PeriodicoDisplay-Rg.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-Rg.woff2') format('woff2'),
+        url('PeriodicoDisplay-Rg.woff') format('woff'),
+        url('PeriodicoDisplay-Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Text';
+    src: url('PeriodicoText-Md.eot');
+    src: local('Periodico Text Medium'), local('PeriodicoText-Md'),
+        url('PeriodicoText-Md.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoText-Md.woff2') format('woff2'),
+        url('PeriodicoText-Md.woff') format('woff'),
+        url('PeriodicoText-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-UtLgIt.eot');
+    src: local('Periodico Display UltraLight Italic'), local('PeriodicoDisplay-UtLgIt'),
+        url('PeriodicoDisplay-UtLgIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-UtLgIt.woff2') format('woff2'),
+        url('PeriodicoDisplay-UtLgIt.woff') format('woff'),
+        url('PeriodicoDisplay-UtLgIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Text';
+    src: url('PeriodicoText-LgIt.eot');
+    src: local('Periodico Text Light Italic'), local('PeriodicoText-LgIt'),
+        url('PeriodicoText-LgIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoText-LgIt.woff2') format('woff2'),
+        url('PeriodicoText-LgIt.woff') format('woff'),
+        url('PeriodicoText-LgIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Text';
+    src: url('PeriodicoText-SmBd.eot');
+    src: local('Periodico Text SemiBold'), local('PeriodicoText-SmBd'),
+        url('PeriodicoText-SmBd.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoText-SmBd.woff2') format('woff2'),
+        url('PeriodicoText-SmBd.woff') format('woff'),
+        url('PeriodicoText-SmBd.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Text';
+    src: url('PeriodicoText-MdIt.eot');
+    src: local('Periodico Text Medium Italic'), local('PeriodicoText-MdIt'),
+        url('PeriodicoText-MdIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoText-MdIt.woff2') format('woff2'),
+        url('PeriodicoText-MdIt.woff') format('woff'),
+        url('PeriodicoText-MdIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display UltraBlack';
+    src: url('PeriodicoDisplay-UtBk.eot');
+    src: local('Periodico Display UltraBlack'), local('PeriodicoDisplay-UtBk'),
+        url('PeriodicoDisplay-UtBk.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-UtBk.woff2') format('woff2'),
+        url('PeriodicoDisplay-UtBk.woff') format('woff'),
+        url('PeriodicoDisplay-UtBk.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Text';
+    src: url('PeriodicoText-RgIt.eot');
+    src: local('Periodico Text Italic'), local('PeriodicoText-RgIt'),
+        url('PeriodicoText-RgIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoText-RgIt.woff2') format('woff2'),
+        url('PeriodicoText-RgIt.woff') format('woff'),
+        url('PeriodicoText-RgIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Text';
+    src: url('PeriodicoText-Lg.eot');
+    src: local('Periodico Text Light'), local('PeriodicoText-Lg'),
+        url('PeriodicoText-Lg.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoText-Lg.woff2') format('woff2'),
+        url('PeriodicoText-Lg.woff') format('woff'),
+        url('PeriodicoText-Lg.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Text';
+    src: url('PeriodicoText-BdIt.eot');
+    src: local('Periodico Text Bold Italic'), local('PeriodicoText-BdIt'),
+        url('PeriodicoText-BdIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoText-BdIt.woff2') format('woff2'),
+        url('PeriodicoText-BdIt.woff') format('woff'),
+        url('PeriodicoText-BdIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Text';
+    src: url('PeriodicoText-SmBdIt.eot');
+    src: local('Periodico Text SemiBold Italic'), local('PeriodicoText-SmBdIt'),
+        url('PeriodicoText-SmBdIt.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoText-SmBdIt.woff2') format('woff2'),
+        url('PeriodicoText-SmBdIt.woff') format('woff'),
+        url('PeriodicoText-SmBdIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display';
+    src: url('PeriodicoDisplay-UtLg.eot');
+    src: local('Periodico Display UltraLight'), local('PeriodicoDisplay-UtLg'),
+        url('PeriodicoDisplay-UtLg.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoDisplay-UtLg.woff2') format('woff2'),
+        url('PeriodicoDisplay-UtLg.woff') format('woff'),
+        url('PeriodicoDisplay-UtLg.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Text';
+    src: url('PeriodicoText-Rg.eot');
+    src: local('Periodico Text'), local('PeriodicoText-Rg'),
+        url('PeriodicoText-Rg.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoText-Rg.woff2') format('woff2'),
+        url('PeriodicoText-Rg.woff') format('woff'),
+        url('PeriodicoText-Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Text';
+    src: url('PeriodicoText-Bd.eot');
+    src: local('Periodico Text Bold'), local('PeriodicoText-Bd'),
+        url('PeriodicoText-Bd.eot?#iefix') format('embedded-opentype'),
+        url('PeriodicoText-Bd.woff2') format('woff2'),
+        url('PeriodicoText-Bd.woff') format('woff'),
+        url('PeriodicoText-Bd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

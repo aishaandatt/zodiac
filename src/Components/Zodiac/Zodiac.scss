@@ -1,0 +1,170 @@
+$bg: #2a2935;
+$primary: #ffffff;
+$secondary: #c2ad7b;
+$hover: #939dff;
+body {
+  background-color: $bg;
+}
+.zodiac {
+  height: 100vh;
+  width: 96vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  .nav {
+    height: 12vh;
+    display: flex;
+    // margin-left: 2vw;
+    align-items: center;
+    // margin-top: 4vh;
+    p {
+      padding: 0;
+      margin: 0;
+      font-family: 'Periodico Text';
+      font-weight: 500;
+      font-size: 2rem;
+      color: $primary;
+    }
+  }
+  .main {
+    display: flex;
+    flex-direction: row;
+    .left {
+      //   margin-left: 2vw;
+      flex: 45%;
+      height: 84vh;
+      // width: 100vw;
+      .btn {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        button {
+          border: none;
+          padding: 0.9em;
+          cursor: pointer;
+          border-radius: 6px;
+          margin-top: 2vh;
+          color: white;
+          font-weight: bold;
+          font-size: 1rem;
+        }
+        .selected {
+          background: $hover;
+          color: black;
+          box-shadow: inset 8px 8px 13px #6a71b8, inset -8px -8px 13px #bcc9ff;
+        }
+        .notSelected {
+          background: #2a2935;
+          box-shadow: 8px 8px 13px #24232d, -8px -8px 13px #302f3d;
+        }
+      }
+      .content {
+        // p {
+        //   margin: 0;
+        //   padding: 0;
+        // }
+        color: white;
+        font-family: 'Periodico Text';
+        .sign {
+          font-size: 4rem;
+        }
+        .dateRange {
+          color: $secondary;
+          font-size: 1.5rem;
+        }
+        .desc {
+          font-size: 1rem;
+        }
+        .extra {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+      }
+    }
+    .right {
+      flex: 55%;
+      height: 84vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .circle {
+        display: grid;
+        grid-template-areas: 'layer';
+        place-items: center;
+        // background: #185adb;
+        background-image: url('../../../public/moon.svg');
+        background-size: cover;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        --radius: calc(30vmin);
+        width: calc(2 * var(--radius));
+        height: calc(2 * var(--radius));
+      }
+
+      .stat {
+        grid-area: layer;
+        width: 9vmin;
+        height: 9vmin;
+        border-radius: 50%;
+        border-radius: 44px;
+        background: #2a2935;
+        box-shadow: 8px 8px 13px #24232d, -8px -8px 13px #302f3d;
+        display: grid;
+        place-items: center;
+        border: none;
+        // background: #ffc947;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 3vmin;
+
+        // Decimal value, 0-1 based on the child's index.
+        --d: calc(var(--i) / var(--total));
+        // Offset to get better starting placement on the circle
+        --r-offset: -0.32turn;
+        // Full circle
+        --r-amount: 1turn;
+        // Rotation based on the decimal and r modifiers
+        --r: calc((var(--r-amount) * var(--d)) + var(--r-offset));
+        // Rotate, transform out, then negative rotation so the content appears upright
+        --transform: rotate(var(--r)) translate(var(--radius))
+          rotate(calc(-1 * var(--r)));
+
+        transform: var(--transform);
+        transition: transform 0.5s ease-in-out;
+        // transition-delay: calc(0.1s * var(--i));
+
+        .circle:hover & {
+          --radius: calc(40vmin);
+          // Animate the rotation
+          --r-offset: -1.75turn; //0.75turn;
+        }
+      }
+      .stat:hover {
+        background-color: $hover;
+      }
+      .stat:active {
+        background: $hover;
+        box-shadow: inset 8px 8px 13px #6a71b8, inset -8px -8px 13px #bcc9ff;
+      }
+
+      img {
+        max-width: 60%;
+        max-height: 60%;
+      }
+    }
+  }
+}
+.selected {
+  background: $hover !important;
+
+  box-shadow: inset 8px 8px 13px #6a71b8, inset -8px -8px 13px #bcc9ff !important;
+  img {
+    // fill: black !important;
+    filter: invert(100%) !important;
+  }
+}
+.notSelected {
+  background: #2a2935;
+  box-shadow: 8px 8px 13px #24232d, -8px -8px 13px #302f3d;
+}
